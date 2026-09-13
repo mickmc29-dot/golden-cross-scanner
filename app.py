@@ -16,7 +16,7 @@ built so you can drop your existing logic straight into
 `scan_ticker()` below.
 """
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, send_from_directory
 from flask_cors import CORS
 import yfinance as yf
 import numpy as np
@@ -151,6 +151,11 @@ def _score(debt_to_ebitda, rev_growth, earn_growth, margin, volume_confirming):
     if volume_confirming:
         score += 1
     return score
+
+
+@app.route("/")
+def dashboard():
+    return send_from_directory("static", "index.html")
 
 
 @app.route("/scan")
