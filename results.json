@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-09-15T01:07:17.045391Z",
-  "elapsed_seconds": 304.7,
+  "last_run": "2026-09-15T01:28:02.490992Z",
+  "elapsed_seconds": 234.4,
   "results": [
     {
       "ticker": "PLTR",
@@ -42,7 +42,7 @@
       "profit_margin_pct": 26.7,
       "fundamental_flags": "no major red flags",
       "score": 8,
-      "ex_dividend_date": "2026-08-30",
+      "ex_dividend_date": "2026-08-31",
       "dividend_amount": 3.44,
       "next_earnings_date": "2026-10-30"
     },
@@ -64,7 +64,7 @@
       "profit_margin_pct": 28.5,
       "fundamental_flags": "no major red flags",
       "score": 8,
-      "ex_dividend_date": "2026-08-27",
+      "ex_dividend_date": "2026-08-28",
       "dividend_amount": 1.0,
       "next_earnings_date": "2026-10-22"
     },
@@ -86,7 +86,7 @@
       "profit_margin_pct": 40.3,
       "fundamental_flags": "no major red flags",
       "score": 8,
-      "ex_dividend_date": "2026-08-19",
+      "ex_dividend_date": "2026-08-20",
       "dividend_amount": 3.64,
       "next_earnings_date": "2026-10-28"
     },
@@ -108,7 +108,7 @@
       "profit_margin_pct": 33.4,
       "fundamental_flags": "no major red flags",
       "score": 7,
-      "ex_dividend_date": "2026-09-02",
+      "ex_dividend_date": "2026-09-03",
       "dividend_amount": 1.04,
       "next_earnings_date": "2026-10-22"
     },
@@ -130,7 +130,7 @@
       "profit_margin_pct": 26.3,
       "fundamental_flags": "no major red flags",
       "score": 7,
-      "ex_dividend_date": "2026-09-10",
+      "ex_dividend_date": "2026-09-11",
       "dividend_amount": 0.4,
       "next_earnings_date": "2026-10-27"
     },
@@ -152,7 +152,7 @@
       "profit_margin_pct": 27.9,
       "fundamental_flags": "no major red flags",
       "score": 7,
-      "ex_dividend_date": "2026-08-17",
+      "ex_dividend_date": "2026-08-18",
       "dividend_amount": 3.76,
       "next_earnings_date": "2026-10-28"
     },
@@ -218,7 +218,7 @@
       "profit_margin_pct": 30.5,
       "fundamental_flags": "no major red flags",
       "score": 6,
-      "ex_dividend_date": "2026-08-25",
+      "ex_dividend_date": "2026-08-26",
       "dividend_amount": 3.88,
       "next_earnings_date": "2026-10-29"
     },
@@ -240,7 +240,7 @@
       "profit_margin_pct": 5.3,
       "fundamental_flags": "no major red flags",
       "score": 6,
-      "ex_dividend_date": "2026-08-18",
+      "ex_dividend_date": "2026-08-19",
       "dividend_amount": 2.25,
       "next_earnings_date": "2026-11-03"
     },
@@ -284,7 +284,7 @@
       "profit_margin_pct": 30.2,
       "fundamental_flags": "no major red flags",
       "score": 6,
-      "ex_dividend_date": "2026-10-01",
+      "ex_dividend_date": "2026-10-02",
       "dividend_amount": 3.64,
       "next_earnings_date": "2026-10-22"
     },
@@ -328,7 +328,7 @@
       "profit_margin_pct": 11.6,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-07-14",
+      "ex_dividend_date": "2026-07-15",
       "dividend_amount": 2.52,
       "next_earnings_date": "2026-10-14"
     },
@@ -350,7 +350,7 @@
       "profit_margin_pct": 15.9,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-06-25",
+      "ex_dividend_date": "2026-06-26",
       "dividend_amount": 1.6,
       "next_earnings_date": "2026-10-20"
     },
@@ -416,7 +416,7 @@
       "profit_margin_pct": 1.1,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-08-31",
+      "ex_dividend_date": "2026-09-01",
       "dividend_amount": 3.76,
       "next_earnings_date": "2026-11-04"
     },
@@ -438,7 +438,7 @@
       "profit_margin_pct": -39.2,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-09-29",
+      "ex_dividend_date": "2026-09-30",
       "dividend_amount": 1.74,
       "next_earnings_date": "2026-10-14"
     },
@@ -460,7 +460,7 @@
       "profit_margin_pct": 1.1,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-11-16",
+      "ex_dividend_date": "2026-11-17",
       "dividend_amount": 2.88,
       "next_earnings_date": "2026-11-04"
     },
@@ -504,7 +504,7 @@
       "profit_margin_pct": 16.4,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-10-01",
+      "ex_dividend_date": "2026-10-02",
       "dividend_amount": 2.0,
       "next_earnings_date": "2026-10-28"
     },
@@ -526,7 +526,7 @@
       "profit_margin_pct": 18.1,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-08-11",
+      "ex_dividend_date": "2026-08-12",
       "dividend_amount": 0.66,
       "next_earnings_date": "2026-10-26"
     },
@@ -548,7 +548,7 @@
       "profit_margin_pct": 16.0,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-08-18",
+      "ex_dividend_date": "2026-08-19",
       "dividend_amount": 2.8,
       "next_earnings_date": "2026-10-22"
     },
@@ -570,7 +570,7 @@
       "profit_margin_pct": 3.1,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-08-10",
+      "ex_dividend_date": "2026-08-11",
       "dividend_amount": 0.52,
       "next_earnings_date": "2026-10-29"
     },
@@ -614,7 +614,7 @@
       "profit_margin_pct": 15.4,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-09-14",
+      "ex_dividend_date": "2026-09-15",
       "dividend_amount": 2.2,
       "next_earnings_date": "2026-10-22"
     },
@@ -636,7 +636,7 @@
       "profit_margin_pct": 8.2,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-08-31",
+      "ex_dividend_date": "2026-09-01",
       "dividend_amount": 13.8,
       "next_earnings_date": "2026-10-20"
     },
@@ -658,7 +658,7 @@
       "profit_margin_pct": 10.0,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-08-12",
+      "ex_dividend_date": "2026-08-13",
       "dividend_amount": 0.29,
       "next_earnings_date": "2026-11-11"
     },
@@ -702,7 +702,7 @@
       "profit_margin_pct": 6.8,
       "fundamental_flags": "no major red flags",
       "score": 5,
-      "ex_dividend_date": "2026-07-23",
+      "ex_dividend_date": "2026-07-24",
       "dividend_amount": 1.72,
       "next_earnings_date": "2026-11-03"
     },
@@ -724,7 +724,7 @@
       "profit_margin_pct": 3.3,
       "fundamental_flags": "no major red flags",
       "score": 4,
-      "ex_dividend_date": "2026-07-26",
+      "ex_dividend_date": "2026-07-27",
       "dividend_amount": 1.02,
       "next_earnings_date": "2026-11-04"
     },
@@ -768,7 +768,7 @@
       "profit_margin_pct": 10.6,
       "fundamental_flags": "no major red flags",
       "score": 4,
-      "ex_dividend_date": "2026-09-15",
+      "ex_dividend_date": "2026-09-16",
       "dividend_amount": 5.4,
       "next_earnings_date": "2026-11-02"
     },
@@ -812,7 +812,7 @@
       "profit_margin_pct": 9.2,
       "fundamental_flags": "no major red flags",
       "score": 4,
-      "ex_dividend_date": "2026-09-14",
+      "ex_dividend_date": "2026-09-15",
       "dividend_amount": 1.5,
       "next_earnings_date": "2026-11-18"
     }
