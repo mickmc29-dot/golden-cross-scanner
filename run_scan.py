@@ -10,7 +10,10 @@ Run locally with:  python run_scan.py
 
 import json
 import math
+import sys
 from datetime import datetime, timezone
+
+import yfinance as yf
 
 from scanner import run_full_scan
 
@@ -36,11 +39,46 @@ def sanitize(obj):
     return obj
 
 
+def verify_todays_close_available():
+    """
+    Confirms the most recent daily bar available from yfinance matches
+    today's date (or, if run on a weekend/holiday, the most recent
+    trading day). Uses SPY as a fast reference check before scanning
+    hundreds of tickers — ported from the original script, so a
+    scheduled run that fires slightly before data settles (or on a
+    market holiday) skips rather than scanning stale data.
+    """
+    today = datetime.now().date()
+    hist = yf.Ticker("SPY").history(period="5d")
+    if hist.empty:
+        return False, None, today
+    latest_date = hist.index[-1].date()
+    return latest_date == today, latest_date, today
+
+
 def main():
+    today = datetime.now().date()
+    if today.weekday() >= 5:
+        print(f"{today} is a weekend — no new market close today. Skipping run.", flush=True)
+        return
+
+    print("Checking that today's market close is available...", flush=True)
+    is_current, latest_date, today = verify_todays_close_available()
+    if not is_current:
+        print(
+            f"Today's close ({today}) is not yet available from the data source "
+            f"(latest available: {latest_date}). This usually means the market "
+            f"hasn't closed yet, or today is a market holiday. Skipping run rather "
+            f"than scanning on stale data — results.json is left untouched.",
+            flush=True,
+        )
+        return
+    print(f"Confirmed: latest close is {latest_date}, matches today. Proceeding.", flush=True)
+
     started = datetime.now(timezone.utc)
     print(f"Scan started {started.isoformat()}", flush=True)
 
-    results = run_full_scan()
+    results = run_full_scan(today=latest_date)
 
     finished = datetime.now(timezone.utc)
     elapsed = (finished - started).total_seconds()
