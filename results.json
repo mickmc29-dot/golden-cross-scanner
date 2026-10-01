@@ -1,37 +1,5 @@
 {
-  "last_run": "2026-09-30T21:52:14.173001Z",
-  "elapsed_seconds": 346.9,
-  "results": [
-    {
-      "ticker": "T",
-      "price": 24.4,
-      "ma50": 24.91,
-      "ma200": 24.78,
-      "rsi": 39.2,
-      "days_since_cross": 2,
-      "golden_cross_recent": true,
-      "ma50_decline_days_before_turn": 8,
-      "ma50_had_sustained_decline": false,
-      "days_below_ma200_before_cross": 79,
-      "had_sustained_below_ma200": true,
-      "ma50_turning_up": true,
-      "ma200_turning_up": true,
-      "price_above_both_mas": false,
-      "volume_confirming": false,
-      "off_recent_low_pct": 17.5,
-      "is_off_recent_low": true,
-      "sector": "Communication Services",
-      "debt_to_ebitda": 3.69,
-      "interest_coverage": null,
-      "revenue_growth_pct": 2.3,
-      "earnings_growth_pct": 6.2,
-      "profit_margin_pct": 16.9,
-      "fundamental_flags": "no major red flags",
-      "passes_fundamental_filter": true,
-      "score": 6,
-      "ex_dividend_date": "2026-10-09",
-      "dividend_amount": 1.11,
-      "next_earnings_date": "2026-10-21"
-    }
-  ]
+  "last_run": "2026-10-01T21:53:38.692038Z",
+  "elapsed_seconds": 423.7,
+  "results": []
 }
