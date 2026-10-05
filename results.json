@@ -1,5 +1,37 @@
 {
-  "last_run": "2026-10-02T21:51:33.525854Z",
-  "elapsed_seconds": 343.3,
-  "results": []
+  "last_run": "2026-10-05T21:53:38.271105Z",
+  "elapsed_seconds": 387.3,
+  "results": [
+    {
+      "ticker": "RGLD",
+      "price": 233.64,
+      "ma50": 240.28,
+      "ma200": 240.21,
+      "rsi": 39.2,
+      "days_since_cross": 0,
+      "golden_cross_recent": true,
+      "ma50_decline_days_before_turn": 45,
+      "ma50_had_sustained_decline": true,
+      "days_below_ma200_before_cross": 69,
+      "had_sustained_below_ma200": true,
+      "ma50_turning_up": true,
+      "ma200_turning_up": true,
+      "price_above_both_mas": false,
+      "volume_confirming": false,
+      "off_recent_low_pct": 25.0,
+      "is_off_recent_low": true,
+      "sector": "Basic Materials",
+      "debt_to_ebitda": 0.31,
+      "interest_coverage": null,
+      "revenue_growth_pct": 115.5,
+      "earnings_growth_pct": 38.3,
+      "profit_margin_pct": 48.1,
+      "fundamental_flags": "no major red flags",
+      "passes_fundamental_filter": true,
+      "score": 6,
+      "ex_dividend_date": "2026-10-02",
+      "dividend_amount": 1.9,
+      "next_earnings_date": "2026-11-04"
+    }
+  ]
 }
