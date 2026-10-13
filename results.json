@@ -1,5 +1,37 @@
 {
-  "last_run": "2026-10-12T21:54:39.880923Z",
-  "elapsed_seconds": 405.2,
-  "results": []
+  "last_run": "2026-10-13T22:07:04.469880Z",
+  "elapsed_seconds": 487.8,
+  "results": [
+    {
+      "ticker": "MAR",
+      "price": 371.5,
+      "ma50": 350.21,
+      "ma200": 350.16,
+      "rsi": 66.8,
+      "days_since_cross": 0,
+      "golden_cross_recent": true,
+      "ma50_decline_days_before_turn": 50,
+      "ma50_had_sustained_decline": true,
+      "days_below_ma200_before_cross": 1,
+      "had_sustained_below_ma200": false,
+      "ma50_turning_up": true,
+      "ma200_turning_up": true,
+      "price_above_both_mas": true,
+      "volume_confirming": false,
+      "off_recent_low_pct": 13.0,
+      "is_off_recent_low": true,
+      "sector": "Consumer Cyclical",
+      "debt_to_ebitda": 3.69,
+      "interest_coverage": null,
+      "revenue_growth_pct": 11.1,
+      "earnings_growth_pct": 4.3,
+      "profit_margin_pct": 35.0,
+      "fundamental_flags": "no major red flags",
+      "passes_fundamental_filter": true,
+      "score": 6,
+      "ex_dividend_date": "2026-08-20",
+      "dividend_amount": 2.92,
+      "next_earnings_date": "2026-11-02"
+    }
+  ]
 }
